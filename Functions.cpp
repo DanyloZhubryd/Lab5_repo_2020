@@ -66,7 +66,7 @@ void Flowershop::TopX(int x)
 	vector<double> TempMas;
 	for (int i = 0; i < Assortment.size(); i++)
 		TempMas.push_back(Assortment.at(i).getPrice());
-			for (int i = 0; i < Assortment.size(); i++)
+	for (int i = 0; i < Assortment.size(); i++)
 	{
 		for (int j = 0; j < Assortment.size(); j++)
 		{
@@ -79,7 +79,7 @@ void Flowershop::TopX(int x)
 		}
 	}
 	for (int i = 0; i < x; i++)
-		cout << '\n'<<i+1<< " - " << TempMas.at(i);
+		cout << '\n' << i + 1 << " - " << TempMas.at(i);
 }
 
 double CalcFullCost(Bouquet* B)

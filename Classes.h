@@ -21,7 +21,7 @@ class Flowershop
 public:
 	Flowershop() {};
 	~Flowershop() {};
-	friend void AddFlowerToAssortment(Flowershop*,int);
+	friend void AddFlowerToAssortment(Flowershop*, int);
 	void DeleteFlower();
 	void TopX(int);
 	int getAssortmentSize();
@@ -36,4 +36,6 @@ public:
 	friend void AddFlowerToBouquet(Bouquet*, int);
 	friend double CalcFullCost(Bouquet*);
 };
+
+
 
